@@ -1,0 +1,65 @@
+@import "../../global.scss";
+
+.skills {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .icon {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+
+    @include mobile {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  h1 {
+    font-size: 50px;
+    overflow: visible;
+    padding: 30px;
+    color: $mainColor;
+
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+
+  .back {
+    rotate: 180deg;
+    position: bottom;
+    bottom: 10px;
+    left: 50%;
+    img {
+      width: 30px;
+      animation: arrowBlink 2s infinite;
+    }
+
+    @keyframes arrowBlink {
+      100% {
+        opacity: 0;
+      }
+    }
+  }
+
+  .forward {
+    a {
+      position: bottom;
+      bottom: 10px;
+      left: 50%;
+      img {
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
