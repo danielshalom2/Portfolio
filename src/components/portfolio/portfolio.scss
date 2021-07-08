@@ -21,6 +21,9 @@
         opacity: 0;
       }
     }
+    @include mobile {
+      display:none;
+    }
   }
 
   h1 {
@@ -121,6 +124,9 @@
           opacity: 0;
         }
       }
+    }
+    @include mobile {
+      display:none;
     }
   }
 }
