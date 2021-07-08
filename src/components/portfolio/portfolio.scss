@@ -14,6 +14,10 @@
     img {
       width: 30px;
       animation: arrowBlink 2s infinite;
+      @include mobile {
+        animation: none;
+      }
+      
     }
 
     @keyframes arrowBlink {
@@ -22,7 +26,7 @@
       }
     }
     @include mobile {
-      display:none;
+      display: none;
     }
   }
 
@@ -94,7 +98,7 @@
         img {
           width: 100%;
           height: 100%;
-          object-fit: contain;
+          object-fit: cover;
           z-index: 1;
         }
       }
@@ -117,6 +121,10 @@
       img {
         width: 30px;
         animation: arrowBlink 2s infinite;
+        @include mobile {
+          animation: none;
+          
+        }
       }
 
       @keyframes arrowBlink {
@@ -126,7 +134,8 @@
       }
     }
     @include mobile {
-      display:none;
+      display: none;
+      
     }
   }
 }
