@@ -60,6 +60,9 @@
           opacity: 0;
         }
       }
+      @include mobile {
+        display:none;
+      }
     }
   }
 }
