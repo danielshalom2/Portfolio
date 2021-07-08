@@ -1,6 +1,6 @@
 import "./topbar.scss";
 
-import { Mail, GitHub, LinkedIn, Call } from "@material-ui/icons";
+import { Mail, GitHub, LinkedIn, Call, PictureAsPdf } from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -11,6 +11,14 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             {" "}
             Shalom.
           </a>
+          <div className="itemContainer">
+            <PictureAsPdf className="icon" />
+            <span>
+              <a href="../../../assets/‏‏Daniel Shalom CV.pdf" target="_blank" rel="noreferrer">
+                Resume
+              </a>
+            </span>
+          </div>
           <div className="itemContainer">
             <Call className="icon" />
             <span>
