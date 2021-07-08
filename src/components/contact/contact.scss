@@ -65,6 +65,9 @@
       flex: 0.5;
       overflow: hidden;
       float: left;
+      @include mobile {
+        display: none;
+      }
 
       .imgContainer {
         width: auto;
@@ -75,9 +78,7 @@
         justify-content: center;
         float: left;
 
-        @include mobile {
-          display: none;
-        }
+        
 
         img {
           height: 90%;
@@ -93,6 +94,9 @@
       flex: 0.5;
       position: relative;
       float: right;
+      @include mobile {
+        flex: 1;
+      }
 
       .itemContainer {
         display: flex;
