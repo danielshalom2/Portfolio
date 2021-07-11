@@ -122,17 +122,6 @@
       left: 50%;
       img {
         width: 30px;
-        animation: arrowBlink 2s infinite;
-        @include mobile {
-          animation: none;
-          
-        }
-      }
-
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0;
-        }
       }
     }
     @include mobile {
