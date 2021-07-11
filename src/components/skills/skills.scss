@@ -35,13 +35,6 @@
     left: 50%;
     img {
       width: 30px;
-      animation: arrowBlink 2s infinite;
-    }
-
-    @keyframes arrowBlink {
-      100% {
-        opacity: 0;
-      }
     }
     @include mobile {
       display:none;
@@ -55,14 +48,8 @@
       left: 50%;
       img {
         width: 30px;
-        animation: arrowBlink 2s infinite;
       }
 
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0;
-        }
-      }
       @include mobile {
         display:none;
       }
