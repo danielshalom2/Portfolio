@@ -103,10 +103,7 @@
         //backface-visibility: hidden;
         //position: absolute;
         //-webkit-transform:translate3d(0,0,0);
-        -webkit-backface-visibility: hidden;
-        display: flex;
-        display: -webkit-box;
-        overflow: hidden;
+        -webkit-transform-style: preserve-3d;
 
       }
     }
