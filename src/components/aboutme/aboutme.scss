@@ -100,7 +100,7 @@
         height: 100%;
         object-fit: cover;
         z-index: 1;
-        backface-visibility: hidden;
+        //backface-visibility: hidden;
         -webkit-transform:translate3d(0,0,0);
       }
     }
