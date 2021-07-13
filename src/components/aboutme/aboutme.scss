@@ -106,6 +106,8 @@
         -webkit-backface-visibility: hidden;
         display: flex;
         display: -webkit-box;
+        overflow: hidden;
+
       }
     }
   }
