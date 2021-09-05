@@ -3,29 +3,13 @@ import "./portfolio.scss";
 //import PortfolioList from "../portfolioList/PortfolioList";
 
 export default function Portfolio() {
-  //const [selected, setSelected] = useState("featured");
-  //const list = [
-    //{ id: "featured", title: "Featured" },
-    //{ id: "web", title: "web App" },
-    //{ id: "mobile", title: "Mobile App" },
-    //{ id: "content", title: "Content" },
-  //];
+
   return (
     <div className="portfolio" id="portfolio">
       <a href="#aboutme" className="back">
         <img src="assets/down.png" alt="" />
       </a>
       <h1>Projects</h1>
-      {/*<ul>
-        {list.map((item) => (
-          <PortfolioList
-            title={item.title}
-            active={selected === item.id}
-            setSelected={setSelected}
-            id={item.id}
-          />
-        ))}
-        </ul>*/}
       <div className="container">
         <div className="item">
           <a
@@ -85,6 +69,16 @@ export default function Portfolio() {
           >
             <img src="../../../assets/todo.jpeg" alt="" />
             <h3>TODO List</h3>
+          </a>
+        </div>
+        <div className="item">
+          <a
+            href="https://github.com/danielshalom2/pong"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="../../../assets/pong.png" alt="" />
+            <h3>Pong</h3>
           </a>
         </div>
         
